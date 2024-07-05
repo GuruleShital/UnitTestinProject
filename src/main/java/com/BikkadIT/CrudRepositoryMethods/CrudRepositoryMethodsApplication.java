@@ -156,8 +156,8 @@ public class CrudRepositoryMethodsApplication {
 
 		Student allStuByIdHql = studentController.getAllStuByIdHql(3);
 		System.out.println(allStuByIdHql);
-		
-	/*	Student allStuByIdSql = studentController.getAllStuByIdSql(5);
-		System.out.println(allStuByIdSql);*/
+		//After Task
+	  Student allStuByIdSql = studentController.getAllStuByIdSql(5);
+		System.out.println(allStuByIdSql);
 	}
 }
